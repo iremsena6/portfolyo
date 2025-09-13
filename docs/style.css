@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-image: url(bg.jpg);
     background-size:1450px 816px; ;
@@ -125,3 +131,8 @@ background-color: rgba(120, 1, 120, 0.844);}
   vertical-align: middle;
 }
 
+.borderimg{
+  
+  border: 10px double!important; 
+  border-color:rgba(249, 158, 249, 0.844)!important;
+}
